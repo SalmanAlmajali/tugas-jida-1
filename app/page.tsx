@@ -12,7 +12,7 @@ export default function Home() {
         <Image className="dark:invert" src="/next.svg" alt="Next.js logo" width={180} height={38} priority />
         <p className="text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">Anda telah meng-klik
           tombol sebanyak</p>
-        <h1 className="text-9xl text-center sm:text-left">{count}</h1>
+        <h1 className="text-9xl text-center sm:text-left">{count}x</h1>
         <button
           className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto cursor-pointer"
           onClick={() => setCount((prevState) => prevState + 1)}
